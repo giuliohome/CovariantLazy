@@ -1,0 +1,98 @@
+﻿Pure Vanilla - OK
+Hello World!
+Test generic animal
+LazyTest.Animal
+Generic feed: Animal
+Test cat
+LazyTest.Cat
+Specific feed: Cat
+Test dog
+LazyTest.Dog
+Generic feed: Dog
+Press any key to continue . . .
+
+Functional - OK
+Hello World!
+Test generic animal
+LazyTest.Animal
+Generic feed: Animal
+Func now
+Generic feed: Animal
+Test cat
+LazyTest.Cat
+Specific feed: Cat
+Func now
+Specific feed: Cat
+Test dog
+LazyTest.Dog
+Generic feed: Dog
+Func now
+Generic feed: Dog
+Press any key to continue . . .
+
+Lazy - without covariance
+Hello World!
+Test generic animal
+LazyTest.Animal
+Generic feed: Animal
+Func now
+Generic feed: Animal
+and Lazy!
+Generic feed: Animal
+LazyTest.Animal
+Test cat
+LazyTest.Cat
+Specific feed: Cat
+Func now
+Specific feed: Cat
+and Lazy!
+Specific feed: Cat
+LazyTest.Cat
+Test dog
+LazyTest.Dog
+Generic feed: Dog
+Func now
+Generic feed: Dog
+and Lazy!
+typeof Dog
+generic declaration with contraints -> feed: Dog
+LazyTest.Dog
+Press any key to continue . . .
+
+Covariant Lazy: OK !!!
+Hello World!
+Test generic animal
+LazyTest.Animal
+Generic feed: Animal
+Func now
+Generic feed: Animal
+and Lazy!
+Generic feed: Animal
+LazyTest.Animal
+CovLazy!!
+Generic feed: Animal
+LazyTest.Animal
+Test cat
+LazyTest.Cat
+Specific feed: Cat
+Func now
+Specific feed: Cat
+and Lazy!
+Specific feed: Cat
+LazyTest.Cat
+CovLazy!!
+Specific feed: Cat
+LazyTest.Cat
+Test dog
+LazyTest.Dog
+Generic feed: Dog
+Func now
+Generic feed: Dog
+and Lazy!
+typeof Dog
+generic declaration with contraints -> feed: Dog
+LazyTest.Dog
+CovLazy!!
+Generic feed: Dog
+LazyTest.Dog
+Press any key to continue . . .

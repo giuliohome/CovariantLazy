@@ -1,0 +1,6 @@
+C:\Dati\sharpdevelop projects\4\test\LazyTest\bin\Debug\LazyTest.exe.config
+C:\Dati\sharpdevelop projects\4\test\LazyTest\bin\Debug\LazyTest.exe
+C:\Dati\sharpdevelop projects\4\test\LazyTest\bin\Debug\LazyTest.pdb
+C:\Dati\sharpdevelop projects\4\test\LazyTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Dati\sharpdevelop projects\4\test\LazyTest\obj\Debug\LazyTest.exe
+C:\Dati\sharpdevelop projects\4\test\LazyTest\obj\Debug\LazyTest.pdb
