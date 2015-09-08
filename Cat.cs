@@ -14,4 +14,11 @@ namespace LazyTest
 		}
 		
 	}
+	public class SubCat : Cat
+	{
+		public SubCat()
+		{
+			
+		}
+	}
 }

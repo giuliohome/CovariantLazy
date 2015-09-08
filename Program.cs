@@ -12,7 +12,7 @@ namespace LazyTest
 			// TODO: Implement Functionality Here
 			
 			Animal a = new Animal();
-			Cat c = new Cat();
+			SubCat c = new SubCat();
 			Dog d = new Dog();
 			Covariance cov = new Covariance();
 			
@@ -40,7 +40,7 @@ namespace LazyTest
 			Console.WriteLine("---------------- Func now");
 			cov.funcfeed(() => c);
 			Console.WriteLine("---------------- and Lazy!");
-			var l_c = new Lazy<Cat>();
+			var l_c = new Lazy<SubCat>();
 			cov.lazyfeed(l_c);
 			Console.WriteLine("created {0}",l_c.IsValueCreated);
 			Console.WriteLine("---------------- Func+Lazy");
@@ -48,7 +48,7 @@ namespace LazyTest
 			Console.WriteLine("created {0}",l_c.IsValueCreated);
 			l_c.Value.Out();
 			Console.WriteLine("---------------- CovLazy!!");
-			var cl_c = new CovLazy<Cat>();
+			var cl_c = new CovLazy<SubCat>();
 			cov.covlazyfeed(cl_c);
 			Console.WriteLine("fired {0}",cl_c.IsFired);
 			cl_c.MyVal.Out();

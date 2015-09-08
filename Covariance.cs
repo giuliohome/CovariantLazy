@@ -37,7 +37,7 @@ namespace LazyTest
 		}
 		public void lazyfeed<T>(Lazy<T> a) where T : Animal
 		{
-//			if (a.GetType() == typeof(Lazy<Dog>) ) {
+//			if (a.GetType() == typeof(Lazy<Dog>) ) { //value is created
 //				Console.WriteLine("typeof Dog");
 //			} else {
 				Console.WriteLine("typeof " + a.ToString());
