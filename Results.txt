@@ -151,3 +151,66 @@ fired False
 Slow constructor
 LazyTest.Dog
 Press any key to continue . . .
+
+Final
+Hello World!
+Slow constructor
+Slow constructor
+Slow constructor
+---------------- Test generic animal
+LazyTest.Animal
+Generic feed: LazyTest.Animal
+---------------- Func now
+Generic feed: System.Func`1[LazyTest.Animal]
+---------------- and Lazy!
+Generic feed: Value is not created.
+created False
+---------------- Func+Lazy
+Generic feed: System.Func`1[LazyTest.Animal]
+created False
+Slow constructor
+LazyTest.Animal
+---------------- CovLazy!!
+Generic feed: LazyTest.CovLazy`1[LazyTest.Animal]
+fired False
+Slow constructor
+LazyTest.Animal
+---------------- Test cat
+LazyTest.Cat
+Specific feed: LazyTest.Cat
+---------------- Func now
+Specific feed: System.Func`1[LazyTest.Cat]
+---------------- and Lazy!
+Specific feed: Value is not created.
+created False
+---------------- Func+Lazy
+Specific feed: System.Func`1[LazyTest.Cat]
+created False
+Slow constructor
+LazyTest.Cat
+---------------- CovLazy!!
+Specific feed: LazyTest.CovLazy`1[LazyTest.Cat]
+fired False
+Slow constructor
+LazyTest.Cat
+---------------- Test dog
+LazyTest.Dog
+Slow constructor
+Generic feed: LazyTest.Dog
+---------------- Func now
+Generic feed: System.Func`1[LazyTest.Animal]
+---------------- and Lazy!
+typeof Value is not created.
+generic declaration with contraints -> feed:
+created False
+---------------- Func+Lazy
+Generic feed: System.Func`1[LazyTest.Animal]
+created False
+Slow constructor
+LazyTest.Dog
+---------------- CovLazy!!
+Generic feed: LazyTest.CovLazy`1[LazyTest.Dog]
+fired False
+Slow constructor
+LazyTest.Dog
+Press any key to continue . . .

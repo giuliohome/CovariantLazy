@@ -25,6 +25,9 @@ namespace LazyTest
 			var l_a = new Lazy<Animal>();
 			cov.lazyfeed(l_a);
 			Console.WriteLine("created {0}",l_a.IsValueCreated);
+			Console.WriteLine("---------------- Func+Lazy");
+			cov.funcfeed(() => l_a.Value);
+			Console.WriteLine("created {0}",l_a.IsValueCreated);
 			l_a.Value.Out();
 			Console.WriteLine("---------------- CovLazy!!");
 			var cl_a = new CovLazy<Animal>();
@@ -40,6 +43,9 @@ namespace LazyTest
 			var l_c = new Lazy<Cat>();
 			cov.lazyfeed(l_c);
 			Console.WriteLine("created {0}",l_c.IsValueCreated);
+			Console.WriteLine("---------------- Func+Lazy");
+			cov.funcfeed(() => l_c.Value);
+			Console.WriteLine("created {0}",l_c.IsValueCreated);
 			l_c.Value.Out();
 			Console.WriteLine("---------------- CovLazy!!");
 			var cl_c = new CovLazy<Cat>();
@@ -54,6 +60,9 @@ namespace LazyTest
 			Console.WriteLine("---------------- and Lazy!");
 			var l_d = new Lazy<Dog>();
 			cov.lazyfeed(l_d);
+			Console.WriteLine("created {0}",l_d.IsValueCreated);
+			Console.WriteLine("---------------- Func+Lazy");
+			cov.funcfeed(() => l_d.Value);
 			Console.WriteLine("created {0}",l_d.IsValueCreated);
 			l_d.Value.Out();
 			Console.WriteLine("---------------- CovLazy!!");
