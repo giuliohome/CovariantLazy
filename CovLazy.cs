@@ -18,5 +18,10 @@ namespace LazyTest
 				return myBase.Value; 
 			}
 		}
+		public bool IsFired {
+			get {
+				return myBase.IsValueCreated;
+			}
+		}
 	}
 }

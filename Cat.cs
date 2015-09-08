@@ -10,6 +10,7 @@ namespace LazyTest
 	{
 		public Cat()
 		{
+			
 		}
 		
 	}

@@ -17,6 +17,7 @@ namespace LazyTest
 	{
 		public Animal()
 		{
+			Console.WriteLine("Slow constructor");
 		}
 		public void Out()
 		{
